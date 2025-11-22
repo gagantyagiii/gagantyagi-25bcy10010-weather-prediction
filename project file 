@@ -1,1 +1,118 @@
-f
+
+Project Report
+
+Weather Prediction Model (Rainfall From Temperature)
+Submitted by: Gagan Tyagi – 25BCY10010
+
+Introduction
+
+I always wondered how weather apps predict if it will rain or not. So for this project, I tried making a very simple prediction system myself. I used past weather data of Lucknow (1990–2022) and trained a small machine learning model that tries to guess rainfall just by looking at the temperature.
+
+It’s not a perfect or professional system, but it helped me learn how data and ML are used in real life, instead of just theory.
+
+
+Aim of the Project
+
+My main goal was to:
+
+Learn how to clean and use a dataset
+
+Understand how Linear Regression works
+
+Try a basic prediction using machine learning
+
+Make a small interface so anybody can test the model
+
+See how accurate or inaccurate predictions can be
+
+
+Tools and Stuff Used
+
+I used Python as the main language and some libraries:
+
+pandas & numpy for handling data
+
+scikit-learn for the model
+
+streamlit to make a webpage-like interface
+
+A CSV file containing weather records
+
+
+How I Made It Work
+
+The steps I followed:
+
+1. Read the weather CSV file using pandas
+
+
+2. Some values were missing in the dataset, so I replaced them with average values
+
+
+3. Divided the data into two parts – one for training and one for testing
+
+
+4. Used Linear Regression to train the model
+
+
+5. Asked the user for a temperature
+
+
+6. The model returns a rainfall amount (in mm)
+
+
+
+
+
+What Results I Got
+
+When a user gives some temperature (like 28°C), the model prints how much rainfall might happen.
+It isn’t totally accurate because rain depends on lots of factors that I didn’t include.
+But still, it gives a rough prediction — which was the main purpose of this beginner project.
+
+Where It Can Be Useful
+
+This idea can be useful for:
+
+Early hints for farmers
+
+Weather prediction demos
+
+Showing relation between climate factors
+
+
+
+What I Can Improve Later
+
+If I continue working on this, I would like to:
+
+Add more weather details like humidity, wind, pressure
+
+Try a better machine learning model instead of only Linear Regression
+
+Add graphs so results look better
+
+Host it online so others can try it too
+
+
+
+---
+
+Conclusion
+
+This project was a good learning experience for me.
+Before doing this, I only knew about machine learning from videos or notes.
+But now I understand the actual steps behind training a model and predicting something.
+
+It’s a very simple project, but I feel it’s a good start.
+
+
+References
+
+Class notes
+
+Internet tutorials for pandas/scikit-learn
+
+Streamlit documentation
+
+Dataset from public weather record
