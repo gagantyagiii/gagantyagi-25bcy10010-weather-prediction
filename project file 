@@ -4,7 +4,7 @@ Project Report
 Weather Prediction Model (Rainfall From Temperature)
 Submitted by: Gagan Tyagi – 25BCY10010
 
-Introduction
+Introductin
 
 I always wondered how weather apps predict if it will rain or not. So for this project, I tried making a very simple prediction system myself. I used past weather data of Lucknow (1990–2022) and trained a small machine learning model that tries to guess rainfall just by looking at the temperature.
 
